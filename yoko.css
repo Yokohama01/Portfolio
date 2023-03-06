@@ -81,7 +81,12 @@ header>#nav>div:nth-of-type(4)>i
     font-size: 1.6rem;
     color: white;
 }
-section>div
+.tt
+{
+    width: 100%;
+    height: 32rem;
+}
+.tt>div
 {
     width: 100%;
     height: 32rem;
@@ -90,7 +95,7 @@ section>div
     background-repeat: no-repeat;
     position: relative;
 }
-section>div>#form
+.tt>div>#form
 {
     width: 35rem;
     height: 50%;
@@ -416,7 +421,7 @@ footer>#f2>div:nth-of-type(1)>div:nth-of-type(1)
 }
 footer>#f2>div:nth-of-type(1)>div:nth-of-type(2)
 {
-    width: 80%;
+    width: 100%;
     height: 40%;
     /* background-color: red; */
     color: white;
@@ -425,8 +430,8 @@ footer>#f2>div:nth-of-type(1)>div:nth-of-type(2)
     justify-content: center;
     align-items: center; */
     position: relative;
-    top: 10%;
-    left: 17%;
+    top: 20%;
+    left: 21%;
 }
 
 footer>#f2>div:nth-of-type(1)>div:nth-of-type(3)
@@ -488,23 +493,95 @@ header>#nav>div:nth-of-type(2)>img
 }
 #project
 {
-    height:30rem;
-    display: flex;
-    flex-direction: column;
-
+    height:32rem;
 }
-#project>div:nth-of-type(1)>div:nth-of-type(2)
+#project>div:nth-of-type(1)
 {
-    display: flex;
-    flex-wrap: wrap;
+    width: 50%;
 }
 #project>div:nth-of-type(2)
 {
-    display: none;
+    width: 50%;
 }
+#project>div:nth-of-type(1)>div:nth-of-type(1)>i
+{
+    font-size: 4rem;
+}
+#project>div:nth-of-type(1)>div:nth-of-type(2)>p
+{
+   font-size: 1.2rem;
+}
+#project>div:nth-of-type(1)>div:nth-of-type(2)>h4
+{
+   font-size: 1.8rem;
+}
+#project>div:nth-of-type(2)>div:nth-of-type(2)>p
+{
+   font-size: 1.1rem;
+}
+#project>div:nth-of-type(2)>div:nth-of-type(2)>h4
+{
+    font-size: 1.5rem;
+}
+
 header>#nav>div:nth-of-type(4)
 {
     display: block;
+}
+header>#nav>div:nth-of-type(1)>img
+{
+    width: 15rem;
+}
+.tt
+{
+    width: 100%;
+
+}
+
+.tt>div
+{
+    width: 100;
+    display: flex;
+
+    /* height: auto; */
+}
+.tt>div>#form
+{
+    width: 90%;
+    height: 40%;
+    display: flex;
+    text-align: center;
+    left: 5%;
+
+}
+#aboutme>h4
+{
+    font-size: 20px;
+}
+#aboutme>p
+{
+    font-size: 20px;
+}
+footer>#f1
+{
+   width: 25%;
+}
+footer>#f2
+{
+   width: 75%;
+    
+}
+footer>#f2>div:nth-of-type(1)>div:nth-of-type(2)>h2
+{
+    font-size: 1rem;
+    position: relative;
+    top: 1%;
+    right: 20%;
+    text-align: center;
+}
+footer>#f2>div:nth-of-type(2)>h1
+{
+    font-size: 1.4rem;
 }
 
 }
